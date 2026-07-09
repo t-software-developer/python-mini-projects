@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<netguard>
+  <application>
+    <setting key="subnet" type="boolean" value="false" />
+    <setting key="reload_onconnectivity" type="boolean" value="true" />
+    <setting key="disable_on_call" type="boolean" value="false" />
+    <setting key="filter_udp" type="boolean" value="false" />
+    <setting key="dark_theme" type="boolean" value="false" />
+    <setting key="whitelist_roaming" type="boolean" value="true" />
+    <setting key="lockdown_other" type="boolean" value="true" />
+    <setting key="lan" type="boolean" value="false" />
+    <setting key="national_roaming" type="boolean" value="false" />
+    <setting key="pcap_file_size" type="string" value="2" />
+    <setting key="whitelist_other" type="boolean" value="true" />
+    <setting key="unmetered_4g" type="boolean" value="false" />
+    <setting key="pcap_record_size" type="string" value="64" />
+    <setting key="version" type="integer" value="2025101201" />
+    <setting key="wifi_homes" type="set" value="" />
+    <setting key="hosts_url" type="string" value="https://www.netguard.me/hosts" />
+    <setting key="install" type="boolean" value="true" />
+    <setting key="use_metered" type="boolean" value="false" />
+    <setting key="nodoze" type="boolean" value="false" />
+    <setting key="stats_frequency" type="string" value="1000" />
+    <setting key="lockdown_wifi" type="boolean" value="true" />
+    <setting key="eu_roaming" type="boolean" value="false" />
+    <setting key="show_top" type="boolean" value="false" />
+    <setting key="notify_access" type="boolean" value="true" />
+    <setting key="log_app" type="boolean" value="true" />
+    <setting key="show_stats" type="boolean" value="false" />
+    <setting key="show_system" type="boolean" value="true" />
+    <setting key="enabled" type="boolean" value="true" />
+    <setting key="manage_system" type="boolean" value="true" />
+    <setting key="stats_samples" type="string" value="90" />
+    <setting key="screen_other" type="boolean" value="false" />
+    <setting key="initialized" type="boolean" value="true" />
+    <setting key="theme" type="string" value="teal" />
+    <setting key="whitelist_wifi" type="boolean" value="true" />
+    <setting key="unmetered_2g" type="boolean" value="false" />
+    <setting key="use_hosts" type="boolean" value="true" />
+    <setting key="handover" type="boolean" value="false" />
+    <setting key="screen_on" type="boolean" value="true" />
+    <setting key="update_check" type="boolean" value="true" />
+    <setting key="socks5_enabled" type="boolean" value="false" />
+    <setting key="debug_iab" type="boolean" value="false" />
+    <setting key="ip6" type="boolean" value="true" />
+    <setting key="filter" type="boolean" value="true" />
+    <setting key="auto_enable" type="string" value="0" />
+    <setting key="screen_delay" type="string" value="0" />
+    <setting key="watchdog" type="string" value="0" />
+    <setting key="loglevel" type="string" value="6" />
+    <setting key="screen_wifi" type="boolean" value="false" />
+    <setting key="tethering" type="boolean" value="false" />
+    <setting key="track_usage" type="boolean" value="false" />
+    <setting key="unmetered_3g" type="boolean" value="false" />
+  </application>
+  <wifi>
+    <setting key="com.android.qns" type="boolean" value="false" />
+    <setting key="com.google.android.repairmode" type="boolean" value="false" />
+    <setting key="android" type="boolean" value="false" />
+    <setting key="com.google.SSRestartDetector" type="boolean" value="false" />
+    <setting key="com.google.android.iwlan" type="boolean" value="false" />
+    <setting key="com.android.server.telecom" type="boolean" value="false" />
+    <setting key="com.android.keychain" type="boolean" value="false" />
+    <setting key="com.android.location.fused" type="boolean" value="false" />
+    <setting key="com.android.localtransport" type="boolean" value="false" />
+    <setting key="com.android.DeviceAsWebcam" type="boolean" value="false" />
+    <setting key="com.google.android.settings.future.biometrics.faceenroll" type="boolean" value="false" />
+    <setting key="com.android.providers.settings" type="boolean" value="false" />
+    <setting key="com.android.inputdevices" type="boolean" value="false" />
+    <setting key="com.android.settings" type="boolean" value="false" />
+    <setting key="com.google.pixel.camera.services" type="boolean" value="false" />
+    <setting key="com.android.dynsystem" type="boolean" value="false" />
+  </wifi>
+  <mobile>
+    <setting key="com.android.qns" type="boolean" value="false" />
+    <setting key="com.google.android.repairmode" type="boolean" value="false" />
+    <setting key="android" type="boolean" value="false" />
+    <setting key="com.google.SSRestartDetector" type="boolean" value="false" />
+    <setting key="com.google.android.iwlan" type="boolean" value="false" />
+    <setting key="com.android.server.telecom" type="boolean" value="false" />
+    <setting key="com.android.keychain" type="boolean" value="false" />
+    <setting key="com.android.location.fused" type="boolean" value="false" />
+    <setting key="com.android.localtransport" type="boolean" value="false" />
+    <setting key="com.android.DeviceAsWebcam" type="boolean" value="false" />
+    <setting key="com.google.android.settings.future.biometrics.faceenroll" type="boolean" value="false" />
+    <setting key="com.android.providers.settings" type="boolean" value="false" />
+    <setting key="com.android.inputdevices" type="boolean" value="false" />
+    <setting key="com.android.settings" type="boolean" value="false" />
+    <setting key="com.google.pixel.camera.services" type="boolean" value="false" />
+    <setting key="com.android.dynsystem" type="boolean" value="false" />
+  </mobile>
+  <screen_wifi />
+  <screen_other />
+  <roaming />
+  <lockdown />
+  <apply />
+  <notify />
+  <filter />
+  <forward />
+</netguard>

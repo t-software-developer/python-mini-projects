@@ -1,0 +1,68 @@
+=== NETGUARD SETTINGS BACKUP REPORT ===
+
+SETTING KEY                    | TYPE       | VALUE
+------------------------------------------------------------
+subnet                         | boolean    | false
+reload_onconnectivity          | boolean    | true
+disable_on_call                | boolean    | false
+filter_udp                     | boolean    | false
+dark_theme                     | boolean    | false
+whitelist_roaming              | boolean    | true
+lockdown_other                 | boolean    | true
+lan                            | boolean    | false
+national_roaming               | boolean    | false
+pcap_file_size                 | string     | 2
+whitelist_other                | boolean    | true
+unmetered_4g                   | boolean    | false
+pcap_record_size               | string     | 64
+version                        | integer    | 2025101201
+wifi_homes                     | set        | (empty)
+hosts_url                      | string     | https://www.netguard.me/hosts
+install                        | boolean    | true
+use_metered                    | boolean    | false
+nodoze                         | boolean    | false
+stats_frequency                | string     | 1000
+lockdown_wifi                  | boolean    | true
+eu_roaming                     | boolean    | false
+show_top                       | boolean    | false
+notify_access                  | boolean    | true
+log_app                        | boolean    | true
+show_stats                     | boolean    | false
+show_system                    | boolean    | true
+enabled                        | boolean    | true
+manage_system                  | boolean    | true
+stats_samples                  | string     | 90
+screen_other                   | boolean    | false
+initialized                    | boolean    | true
+theme                          | string     | teal
+whitelist_wifi                 | boolean    | true
+unmetered_2g                   | boolean    | false
+use_hosts                      | boolean    | true
+handover                       | boolean    | false
+screen_on                      | boolean    | true
+update_check                   | boolean    | true
+socks5_enabled                 | boolean    | false
+debug_iab                      | boolean    | false
+ip6                            | boolean    | true
+filter                         | boolean    | true
+auto_enable                    | string     | 0
+screen_delay                   | string     | 0
+watchdog                       | string     | 0
+loglevel                       | string     | 6
+screen_wifi                    | boolean    | false
+tethering                      | boolean    | false
+track_usage                    | boolean    | false
+unmetered_3g                   | boolean    | false
+
+
+=== OTHER SECTIONS AVAILABLE IN BACKUP ===
+- wifi: Contains data
+- mobile: Contains data
+- screen_wifi: Empty
+- screen_other: Empty
+- roaming: Empty
+- lockdown: Empty
+- apply: Empty
+- notify: Empty
+- filter: Empty
+- forward: Empty
